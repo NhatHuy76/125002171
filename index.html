@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Bàn Việt — Công ty du lịch &amp; đặt tour trực tuyến</title>
+    <meta
+      name="description"
+      content="La Bàn Việt tổ chức tour trong nước và nước ngoài: Hạ Long, Đà Lạt, Phú Quốc, Sapa, Bangkok, Nhật Bản. Đặt tour trực tuyến nhanh chóng, giá minh bạch."
+    />
+    <link rel="icon" href="img/images.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&amp;family=Work+Sans:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="site">
+      <header class="site-header">
+        <div class="wrap">
+          <a class="brand" href="#top">
+            <span
+              class="brand-mark animate__animated animate__pulse animate__slow animate__infinite"
+              aria-hidden="true"
+              >LB</span
+            >
+            La Bàn Việt
+          </a>
+          <input type="checkbox" id="navCheck" class="toggle-input" />
+          <label class="nav-toggle" for="navCheck">
+            <span aria-hidden="true">☰</span>
+            <span class="visually-hidden">Menu</span>
+          </label>
+          <nav class="main-nav" id="main-nav" aria-label="Menu chính">
+            <ul>
+              <li><a href="#top">Trang chủ</a></li>
+              <li><a href="#tours-trong-nuoc">Tour trong nước</a></li>
+              <li><a href="#tours-nuoc-ngoai">Tour nước ngoài</a></li>
+              <li><a href="#cam-nang">Cẩm nang</a></li>
+              <li><a href="#dat-tour">Đặt tour</a></li>
+            </ul>
+          </nav>
+          <div class="header-actions">
+            <input type="checkbox" id="themeCheck" class="toggle-input" />
+            <label class="theme-toggle" for="themeCheck">
+              <span class="icon icon-moon" aria-hidden="true"></span>
+              <span class="icon icon-sun" aria-hidden="true"></span>
+              <span class="label label-dark">Chế độ tối</span>
+              <span class="label label-light">Chế độ sáng</span>
+            </label>
+          </div>
+        </div>
+      </header>
+      <section class="banner" id="top" aria-label="Giới thiệu">
+        <div class="wrap">
+          <div class="banner-copy">
+            <h1 class="animate__animated animate__fadeInDown">
+              Mỗi hành trình cần một la bàn
+            </h1>
+            <p class="lede">
+              La Bàn Việt dựng lịch trình, đặt chỗ và đồng hành cùng bạn từ vịnh
+              Hạ Long đến núi Phú Sĩ — để bạn chỉ cần lo mỗi việc: xách vali lên
+              và đi.
+            </p>
+            <div class="cta-row">
+              <a
+                class="btn btn-primary animate__animated animate__zoomIn animate__delay-1s"
+                href="#dat-tour"
+                >Khám phá ngay</a
+              >
+              <a
+                class="btn btn-ghost animate__animated animate__zoomIn animate__delay-1s"
+                href="#tours-trong-nuoc"
+                >Xem các tour</a
+              >
+            </div>
+          </div>
+          <figure class="banner-figure">
+            <img
+              src="img/anhnen.jpg"
+              alt="Minh họa la bàn và tuyến hành trình nối các điểm đến du lịch"
+            />
+          </figure>
+        </div>
+      </section>
+      <main>
+        <section class="tours" aria-label="Danh sách tour">
+          <div class="wrap">
+            <div class="section-head" id="tours-trong-nuoc">
+              <h2>Tour trong nước</h2>
+              <p>
+                Những điểm đến quen mà lạ, chọn lọc theo mùa đẹp nhất trong năm.
+              </p>
+            </div>
+            <div class="tour-row">
+              <article class="tour-card">
+                <figure>
+                  <img
+                    src="img/halong.jpg"
+                    alt="Thuyền du lịch giữa các đảo đá vôi ở Vịnh Hạ Long"
+                  />
+                </figure>
+                <div class="body">
+                  <h3>Vịnh Hạ Long 3N2Đ</h3>
+                  <ul class="tour-meta">
+                    <li>3 ngày 2 đêm</li>
+                    <li>Khởi hành: Hà Nội</li>
+                  </ul>
+                  <p class="tour-price">3.500.000 đ</p>
+                  <a class="btn btn-outline" href="#dat-tour">Đặt tour này</a>
+                </div>
+              </article>
+              <article class="tour-card">
+                <figure>
+                  <img
+                    src="img/dalat.jpg"
+                    alt="Đồi thông và vườn hoa ở Đà Lạt trong sương sớm"
+                  />
+                </figure>
+                <div class="body">
+                  <h3>Đà Lạt — Thành phố ngàn hoa</h3>
+                  <ul class="tour-meta">
+                    <li>3 ngày 2 đêm</li>
+                    <li>Khởi hành: TP.HCM</li>
+                  </ul>
+                  <p class="tour-price">2.900.000 đ</p>
+                  <a class="btn btn-outline" href="#dat-tour">Đặt tour này</a>
+                </div>
+              </article>
+              <article class="tour-card">
+                <figure>
+                  <img
+                    src="img/phuquoc.jpg"
+                    alt="Bãi biển cát trắng với hàng dừa ở Phú Quốc"
+                  />
+                </figure>
+                <div class="body">
+                  <h3>Phú Quốc — Đảo ngọc</h3>
+                  <ul class="tour-meta">
+                    <li>4 ngày 3 đêm</li>
+                    <li>Khởi hành: TP.HCM</li>
+                  </ul>
+                  <p class="tour-price">5.200.000 đ</p>
+                  <a class="btn btn-outline" href="#dat-tour">Đặt tour này</a>
+                </div>
+              </article>
+              <article class="tour-card">
+                <figure>
+                  <img
+                    src="img/canh-dep-sapa-6.jpg"
+                    alt="Ruộng bậc thang và núi Fansipan ở Sapa"
+                  />
+                </figure>
+                <div class="body">
+                  <h3>Sapa — Nóc nhà Đông Dương</h3>
+                  <ul class="tour-meta">
+                    <li>3 ngày 2 đêm</li>
+                    <li>Khởi hành: Hà Nội</li>
+                  </ul>
+                  <p class="tour-price">3.200.000 đ</p>
+                  <a class="btn btn-outline" href="#dat-tour">Đặt tour này</a>
+                </div>
+              </article>
+            </div>
+            <div class="section-head section-head-spaced" id="tours-nuoc-ngoai">
+              <h2>Tour nước ngoài</h2>
+              <p>
+                Hành trình xa hơn, được lên lịch trình chi tiết đến từng bữa ăn.
+              </p>
+            </div>
+            <div class="tour-row">
+              <article class="tour-card">
+                <figure>
+                  <img
+                    src="img/bangkok.jpg"
+                    alt="Chùa vàng và đường chân trời Bangkok lúc hoàng hôn"
+                  />
+                </figure>
+                <div class="body">
+                  <h3>Bangkok — Pattaya, Thái Lan</h3>
+                  <ul class="tour-meta">
+                    <li>5 ngày 4 đêm</li>
+                    <li>Khởi hành: TP.HCM</li>
+                  </ul>
+                  <p class="tour-price">8.900.000 đ</p>
+                  <a class="btn btn-outline" href="#dat-tour">Đặt tour này</a>
+                </div>
+              </article>
+              <article class="tour-card">
+                <figure>
+                  <img
+                    src="img/nhatban.jpg"
+                    alt="Núi Phú Sĩ với hoa anh đào ở Nhật Bản"
+                  />
+                </figure>
+                <div class="body">
+                  <h3>Nhật Bản — Mùa hoa anh đào</h3>
+                  <ul class="tour-meta">
+                    <li>6 ngày 5 đêm</li>
+                    <li>Khởi hành: Hà Nội</li>
+                  </ul>
+                  <p class="tour-price">24.900.000 đ</p>
+                  <a class="btn btn-outline" href="#dat-tour">Đặt tour này</a>
+                </div>
+              </article>
+            </div>
+            <div class="section-head section-head-spaced" id="cam-nang">
+              <h2>Cẩm nang du lịch</h2>
+              <p>Mẹo hay và kinh nghiệm từ những chuyến đi thực tế.</p>
+            </div>
+            <aside class="travel-tip">
+              <h3>Mẹo nhỏ trước khi lên đường</h3>
+              <p>
+                Hãy đặt tour trước ít nhất 2 tuần để có giá tốt, kiểm tra
+                passport còn hạn trên 6 tháng, và luôn mang theo một bản sao
+                giấy tờ tùy thân. La Bàn Việt luôn sẵn sàng hỗ trợ bạn 24/7.
+              </p>
+            </aside>
+          </div>
+        </section>
+        <section class="booking" id="dat-tour" aria-label="Đặt tour">
+          <div class="wrap booking-layout">
+            <div class="booking-intro">
+              <h2>Đặt tour</h2>
+              <p>
+                Điền thông tin bên dưới, đội ngũ tư vấn của La Bàn Việt sẽ liên
+                hệ xác nhận trong vòng 24 giờ.
+              </p>
+              <aside class="booking-facts-wrap">
+                <ul class="booking-facts">
+                  <li>Giữ chỗ không cần cọc trước</li>
+                  <li>Miễn phí đổi ngày khởi hành 1 lần</li>
+                  <li>Hỗ trợ 24/7 trong suốt chuyến đi</li>
+                </ul>
+              </aside>
+            </div>
+            <form class="booking-form" action="#" method="post">
+              <div class="form-grid">
+                <div class="field">
+                  <label for="fullname">Họ và tên</label>
+                  <input
+                    type="text"
+                    id="fullname"
+                    name="fullname"
+                  />
+                </div>
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                  />
+                </div>
+                <div class="field">
+                  <label for="phone">Điện thoại</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                  />
+                </div>
+                <div class="field">
+                  <label for="departDate">Ngày khởi hành</label>
+                  <input
+                    type="date"
+                    id="departDate"
+                    name="departDate"
+                  />
+                </div>
+                <div class="field">
+                  <label for="guests">Số khách</label>
+                  <input
+                    type="number"
+                    id="guests"
+                    name="guests"
+                  />
+                </div>
+                <div class="field">
+                  <label for="tourSelect">Tour muốn đi</label>
+                  <select id="tourSelect" name="tourSelect" required>
+                    <option value="" disabled selected>
+                      -- Chọn một tour --
+                    </option>
+                    <option value="halong">Vịnh Hạ Long 3N2Đ</option>
+                    <option value="dalat">Đà Lạt — Thành phố ngàn hoa</option>
+                    <option value="phuquoc">Phú Quốc — Đảo ngọc</option>
+                    <option value="sapa">Sapa — Nóc nhà Đông Dương</option>
+                    <option value="bangkok">Bangkok — Pattaya, Thái Lan</option>
+                    <option value="japan">Nhật Bản — Mùa hoa anh đào</option>
+                  </select>
+                </div>
+                <fieldset class="field">
+                  <legend>Loại phòng</legend>
+                  <div class="choice-row">
+                    <label class="choice"
+                      ><input
+                        type="radio"
+                        name="roomType"
+                        value="don"
+                        required
+                      />
+                      Phòng đơn</label
+                    >
+                    <label class="choice"
+                      ><input type="radio" name="roomType" value="doi" /> Phòng
+                      đôi</label
+                    >
+                    <label class="choice"
+                      ><input type="radio" name="roomType" value="giadinh" />
+                      Phòng gia đình</label
+                    >
+                  </div>
+                </fieldset>
+                <fieldset class="field">
+                  <legend>Dịch vụ thêm</legend>
+                  <div class="choice-row">
+                    <label class="choice"
+                      ><input type="checkbox" name="extras" value="donsan" />
+                      Đưa đón sân bay</label
+                    >
+                    <label class="choice"
+                      ><input type="checkbox" name="extras" value="baohiem" />
+                      Bảo hiểm du lịch</label
+                    >
+                    <label class="choice"
+                      ><input type="checkbox" name="extras" value="hdv" /> Hướng
+                      dẫn viên riêng</label
+                    >
+                    <label class="choice"
+                      ><input type="checkbox" name="extras" value="xemay" />
+                      Thuê xe máy</label
+                    >
+                  </div>
+                </fieldset>
+                <div class="field full">
+                  <label for="note">Yêu cầu đặc biệt</label>
+                  <textarea
+                    id="note"
+                    name="note"
+                    rows="4"
+                    placeholder="Ví dụ: ăn chay, phòng tầng thấp, kỷ niệm ngày cưới..."
+                  ></textarea>
+                </div>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn-solid">Đặt tour</button>
+                <button type="reset" class="btn btn-outline">Hủy</button>
+              </div>
+              <p class="form-note">
+                Sau khi bấm "Đặt tour", vui lòng chờ nhân viên tư vấn gọi lại
+                xác nhận.
+              </p>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="wrap">
+          <div class="footer-grid">
+            <div class="footer-col">
+              <h3>La Bàn Việt</h3>
+              <address>
+                <p>
+                  số 10 Huỳnh Văn Nghệ, phường Bửu Long, thành phố Biên Hòa,
+                  tỉnh Đồng Nai
+                </p>
+              </address>
+              <p>Số giấy phép lữ hành quốc tế: 79-123/2024/TCDL-GPLHQT</p>
+            </div>
+            <div class="footer-col">
+              <h3>Liên hệ</h3>
+              <p>Hotline: 1900 6868</p>
+              <p>Email: hotro@labanviet.vn</p>
+              <div class="social-row" aria-label="Mạng xã hội">
+                <a href="#" aria-label="Facebook">f</a>
+                <a href="#" aria-label="Instagram">ig</a>
+                <a href="#" aria-label="Zalo">Za</a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>© 2026 La Bàn Việt. Bảo lưu mọi quyền.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
