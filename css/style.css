@@ -344,7 +344,6 @@ body:has(#themeCheck:checked) .tour-price { color: var(--c-marigold); }
 }
 body:has(#themeCheck:checked) .booking-facts li::before { color: var(--c-marigold); }
 
-/* ===== FORM ===== */
 .booking-form {
   background: var(--c-surface);
   border: 1px solid var(--c-line);
